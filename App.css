@@ -1,0 +1,37 @@
+.WeatherBG{
+    background-image: url("https://img.freepik.com/premium-vector/clouds-stars-sun-blue-background-childrens-vector-illustration-sky_153074-219.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+   background-size: cover;
+   flex-direction: column;
+}
+
+.weathertext{
+    color: white;
+    border: 7px solid #e5ac12;
+    padding: 0 100px;
+    border-radius: 9999px;
+    font-weight: 700;
+}
+
+.WeatherResult{
+    margin-left: 500px;
+    height: 290px;
+    width: 500px;
+}
+
+.Weathericon{
+  width: 100px;
+  height: 100px;
+  margin-top: 35px;
+}
+
+.city{
+ font-size: 30px;
+}
+.temp{
+ font-size: 45px;
+ font-weight: 700;
+}
